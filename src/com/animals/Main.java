@@ -4,7 +4,7 @@ import com.animals.birds.Bird;
 import com.animals.birds.BlueArara;
 import com.animals.fishes.Fish;
 import com.animals.fishes.Goldfish;
-import com.animals.mammals.Dog;
+import com.animals.wolf.Dog;
 import com.animals.mammals.Kangaroo;
 import com.animals.mammals.Mammal;
 import com.animals.reptiles.Reptile;

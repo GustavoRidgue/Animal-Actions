@@ -1,6 +1,6 @@
-package com.animals.mammals;
+package com.animals.wolf;
 
-public class Dog extends Mammal{
+public class Dog extends Wolf {
     @Override
     public void sound() {
         System.out.println("Sounding auau");
