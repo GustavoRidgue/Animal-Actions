@@ -5,9 +5,7 @@ public abstract class Animal {
     protected int age;
     protected int members;
 
-    public void move() {
-        System.out.println("I'm moving to somewhere");
-    }
+    public abstract void move();
 
     public void feed() {
         System.out.println("I'm eating food");

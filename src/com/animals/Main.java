@@ -10,6 +10,7 @@ import com.animals.mammals.Mammal;
 import com.animals.reptiles.Reptile;
 import com.animals.reptiles.Snake;
 import com.animals.reptiles.Turtle;
+import com.animals.wolf.Wolf;
 
 public class Main {
 
@@ -20,6 +21,7 @@ public class Main {
         Goldfish goldfish = new Goldfish();
         Mammal mammal = new Mammal();
         Dog dog = new Dog();
+        Wolf wolf = new Wolf();
         Kangaroo kangaroo = new Kangaroo();
         Reptile reptile = new Reptile();
         Snake snake = new Snake();
@@ -31,9 +33,15 @@ public class Main {
         goldfish.sound();
         mammal.sound();
         dog.sound();
+        wolf.sound();
         kangaroo.sound();
         reptile.sound();
         snake.sound();
         turtle.sound();
+
+        dog.react("oi");
+        dog.react(22, 50);
+        dog.react(6, 40);
+        dog.react(false);
     }
 }
